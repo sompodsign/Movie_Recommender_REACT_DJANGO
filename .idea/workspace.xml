@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a486a751-c948-45e9-a15f-40f8c387387f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/Movie.jsx" afterDir="false" />
+    <list default="true" id="a486a751-c948-45e9-a15f-40f8c387387f" name="Default Changelist" comment="changed style.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/movie_recommender/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/movie_recommender/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Movie.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Movie.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +55,17 @@
       <workItem from="1615864596494" duration="23000" />
       <workItem from="1615915364438" duration="3098000" />
       <workItem from="1615955564017" duration="5512000" />
-      <workItem from="1616151855675" duration="3538000" />
+      <workItem from="1616151855675" duration="3559000" />
+      <workItem from="1616257667504" duration="3878000" />
     </task>
+    <task id="LOCAL-00001" summary="changed style.">
+      <created>1616176962242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616176962242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,5 +87,7 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="changed style." />
+    <option name="LAST_COMMIT_MESSAGE" value="changed style." />
   </component>
 </project>
