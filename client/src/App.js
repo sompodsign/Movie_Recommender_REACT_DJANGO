@@ -1,5 +1,5 @@
 import axi from "./axiosConfig";
-import React, {useState, useEffect} from "react"
+import React, {useEffect, useState} from "react"
 import {Button} from '@material-ui/core';
 import Movie from "./components/Movie"
 
@@ -7,22 +7,23 @@ function App() {
 
     const [movie, setMovie] = useState({});
 
-    useEffect(()=> {
+    function fetchMovie() {
         axi.get("/api/v1").then(r => setMovie(r.data.movie));
+    }
+
+    useEffect(() => {
+        fetchMovie()
     }, [])
 
-    function handleClick(){
-
+    function handleClick() {
+        fetchMovie()
     }
 
     return (
         <div>
-
-                <Movie movie={movie}/>
-{/*// Object.keys(movie).length !== 0 &&*/}
-
+            <Movie movie={movie}/>
             <p>
-                <Button className="btn" variant="contained" color="secondary" onClick={handleClick}>Suggest</Button>
+                <Button className="btn" variant="contained" color="secondary" onClick={handleClick}>Next</Button>
             </p>
         </div>
     );

@@ -2,7 +2,6 @@ import React from "react";
 
 function Movie(props){
 
-    console.log(props.movie.title)
 
     return <div className="card movie_card">
         <img src={props.movie.poster}

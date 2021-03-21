@@ -1,4 +1,4 @@
-div{
+*{
 			font-family: 'Poppins', sans-serif;
 			 -webkit-user-select: none;
     		-moz-user-select: -moz-none;
@@ -69,3 +69,9 @@ div{
 		.credits .card-body i{
 			color: #8e24aa;
 		}
+
+.movie_card {
+margin: 0 auto;
+	padding: 15px;
+}
+
