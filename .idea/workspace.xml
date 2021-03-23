@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a486a751-c948-45e9-a15f-40f8c387387f" name="Default Changelist" comment="card first time load issue fixed.">
+    <list default="true" id="a486a751-c948-45e9-a15f-40f8c387387f" name="Default Changelist" comment="card position fixed.">
+      <change afterPath="$PROJECT_DIR$/client/src/components/filterForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +43,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Shampad\Desktop\movie_recommender\client\src\components" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +61,8 @@
       <workItem from="1615915364438" duration="3098000" />
       <workItem from="1615955564017" duration="5512000" />
       <workItem from="1616151855675" duration="3559000" />
-      <workItem from="1616257667504" duration="9789000" />
+      <workItem from="1616257667504" duration="9816000" />
+      <workItem from="1616392834239" duration="9005000" />
     </task>
     <task id="LOCAL-00001" summary="changed style.">
       <created>1616176962242</created>
@@ -77,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616352707151</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="card position fixed.">
+      <created>1616353486936</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616353486936</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +117,7 @@
     <MESSAGE value="changed style." />
     <MESSAGE value="improved the card." />
     <MESSAGE value="card first time load issue fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="card first time load issue fixed." />
+    <MESSAGE value="card position fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="card position fixed." />
   </component>
 </project>
